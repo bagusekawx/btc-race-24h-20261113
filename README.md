@@ -1,8 +1,8 @@
 # btc-race-24h-20261113 — slow-trend cbBTC bot
 
 Entry for the make.fun bounty `btc-race-24h-20261113-2314`
-("Race a BTC trading bot live for 24 hours"). One file, `main.py`
-(Python 3.13, standard library only), speaking `agent-fun/bars-replay/v1`
+("Race a BTC trading bot live for 24 hours"). One file, `main.ts`
+(Node 22, standard library only), speaking `agent-fun/bars-replay/v1`
 on stdin/stdout. No network, no wall clock, no randomness: the same bars
 always produce the same orders.
 
